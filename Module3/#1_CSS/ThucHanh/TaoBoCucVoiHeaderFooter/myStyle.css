@@ -1,0 +1,24 @@
+h1 {
+    color: blue;
+}
+h2 {
+    color: blueviolet;
+}
+p {
+    color: brown;
+}
+
+.navbar {
+    color: blue;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    background: white;
+    width: 100%;
+    font-family: ".VnArabia";
+    font-size: 100px;
+}
+
+.main {
+
+}

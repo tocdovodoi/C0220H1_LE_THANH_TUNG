@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+#header {
+    background: blue;
+    height: 100px;
+    width: 100%;
+}
+
+#main {
+    background: blueviolet;
+    height: 460px;
+    width: 70%;
+    float: left;
+}
+
+#sidebar {
+    background: chartreuse;
+    height: 460px;
+    width: 30%;
+    float: left;
+}
+
+#footer {
+    background: aqua;
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
+

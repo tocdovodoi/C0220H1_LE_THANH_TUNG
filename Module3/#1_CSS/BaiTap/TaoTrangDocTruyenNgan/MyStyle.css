@@ -1,0 +1,92 @@
+body {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+#head {
+    background: blueviolet;
+    height: 100px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    float: left;
+}
+
+#left {
+    background: darkgray;
+    height: 600px;
+    width: 15%;
+    left: 0px;
+    float: left;
+    clear: both;
+}
+
+#content {
+    height: 570px;
+    width: 85%;
+    float: left;
+    position: relative;
+    top: 100px;
+}
+
+
+#footer {
+    background: darkslateblue;
+    height: 50px;
+    width: 100%;
+    clear: both;
+}
+
+.list-group-item {
+    background: darkgray;
+    color: black;
+    height: 40px;
+    width: 200px;
+    font-family: "Times New Roman";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.list-group list-group-horizontal-md {
+    position: absolute;
+    top: 60px;
+}
+
+.list-group-flush {
+    position: relative;
+    top: 100px;
+}
+
+.row1 {
+    position: absolute;
+    float: left;
+    top: 0;
+}
+
+.row2 {
+    clear: both;
+    position: absolute;
+    float: left;
+    top: 101px;
+}
+
+.row3 {
+    clear: both;
+    position: absolute;
+    float: left;
+    top: 301px;
+}
+
+p {
+    color: black;
+    font-family: "Times New Roman";
+    font-size: medium ;
+    font-weight: lighter;
+}
+
+
+
+

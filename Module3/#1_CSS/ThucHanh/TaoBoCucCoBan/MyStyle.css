@@ -1,0 +1,59 @@
+body {
+    position: relative;
+}
+
+#main {
+    position: absolute;
+
+}
+
+#head {
+    background: blueviolet;
+    height: 100px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    margin: 10px;
+}
+
+#head-link {
+    background: aquamarine;
+    height: 50px;
+    width: 100%;
+    top: 100px;
+    left: 0px;
+    margin: 10px;
+}
+
+#left {
+    background: brown;
+    height: 400px;
+    width: 15%;
+    left: 0px;
+    clear: both;
+    float: left;
+    margin: 1%;
+}
+#content {
+    background: chocolate;
+    height: 400px;
+    width: 64%;
+    float: left;
+    margin: 1%;
+}
+
+#right {
+    background: darkgreen;
+    height: 400px;
+    width: 15%;
+    float: left;
+    margin: 1%;
+}
+
+#footer {
+    background: darkslateblue;
+    height: 80px;
+    width: 100%;
+    clear: both;
+    margin: 10px;
+}
