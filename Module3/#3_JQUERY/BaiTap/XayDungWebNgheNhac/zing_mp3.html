@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mp3.zing.vn</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="plugin/jPlayer-2.9.2/jPlayer-2.9.2/lib/jquery.min.js"></script>
+    <script src="plugin/jPlayer-2.9.2/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.js"></script>
+    <link rel="stylesheet" href="plugin/jPlayer-2.9.2/jPlayer-2.9.2/dist/skin/blue.monday/css/jplayer.blue.monday.css">
+    <script src="plugin/jPlayer-2.9.2/jPlayer-2.9.2/dist/add-on/jplayer.playlist.min.js"></script>
+    <script src="plugin/jPlayer-2.9.2/jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>
+
+    <script src="MyAction.js"></script>
+    <link rel="stylesheet" href="MyStyle.css">
+
+    <!-- Phải để sau JQuery-->
+
+</head>
+<body>
+<div class="container-fluid">
+    <!--NAVBAR-->
+    <div class="row" style="background: #6c757d;">
+        <!--        LOGO-->
+        <div class="col-3 p-0">
+            <img src="images/logo.png"/>
+        </div>
+        <!--        SEARCH-->
+        <div class="col-4" style="position: relative">
+            <form class="form-inline my-2 my-lg-0" style="position: absolute; top: 50px; width: 80%">
+                <div class="thanhSearch" style="position: relative">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                           style="position: relative">
+                    <span class="nutSearch" style="position: absolute; right: 0; top: 20%">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                             class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21"
+                                                                                                         x2="16.65"
+                                                                                                         y2="16.65"></line></svg>
+                    </span>
+                </div>
+            </form>
+        </div>
+        <!--MENU NAVBAR-->
+        <div class="col-5" style="position: relative">
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown"
+                 style="position: absolute; top: 50px">
+                <button type="button" class="btn btn-secondary">MP3</button>
+                <button type="button" class="btn btn-secondary">NEW</button>
+                <button type="button" class="btn btn-secondary">TV</button>
+                <button type="button" class="btn btn-secondary">ZALO PC</button>
+                <button type="button" class="btn btn-secondary">Đăng Nhập</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups" style="background: #6c757d">
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-secondary">TRANG CHỦ</button>
+                <button type="button" class="btn btn-secondary">#ZINGCHART</button>
+                <button type="button" class="btn btn-secondary">MỚI PHÁT HÀNH</button>
+                <button type="button" class="btn btn-secondary">TOP 100</button>
+                <button type="button" class="btn btn-secondary">CHỦ ĐỀ</button>
+                <button type="button" class="btn btn-secondary">MV</button>
+            </div>
+        </div>
+    </div>
+    <!--    CAROUSEL-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+         style="margin-right: -12px; margin-left: -12px">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" style="height: 500px">
+            <div class="carousel-item active w-100">
+                <img class="d-block w-100" src="images/anhquan.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item w-100">
+                <img class="d-block w-100" src="images/nhactre.jpg" alt="Two slide">
+            </div>
+            <div class="carousel-item w-100">
+                <img class="d-block w-100" src="images/v-pop.jpg" alt="Three slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+           data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+           data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--     BODY       -->
+    <div class="row">
+        <h2>Lạ Mà Vui</h2>
+        <div class="card" style="width: 20%; float: left">
+            <img src="images/MoDauHoanHao.png" class="card-img-top" alt="...">
+            <a href="#" class="card-body">Go somewhere</a>
+        </div>
+
+        <div class="card" style="width: 20%; float: left">
+            <img src="images/NhungConSoBietNoi.png" class="card-img-top" alt="...">
+            <a href="#" class="card-body">Những con số biết nói</a>
+        </div>
+
+        <div class="card" style="width: 20%; float: left">
+            <img src="images/MotBaiHatHaiNgonNgu.png" class="card-img-top" alt="...">
+            <a href="#" class="card-body">1 bài hát 2 ngôn ngữ</a>
+        </div>
+
+        <div class="card" style="width: 20%; float: left">
+            <img src="images/TuaTiengAnhCaKhucViet.png" class="card-img-top" alt="...">
+            <a href="#" class="card-body">Tựa tiếng anh ca khúc việt</a>
+        </div>
+
+        <div class="card" style="width: 20%; float: left">
+            <img src="images/TacKeHoa.png" class="card-img-top" alt="...">
+            <a href="" class="card-body">Tắc kè hoa
+            </a>
+        </div>
+    </div>
+
+<!--        <audio controls>-->
+<!--            <source src="music/timve.mp3">-->
+<!--        </audio>-->
+
+    <!--    PLUGIN AUDIO-->
+    <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+    <div id="jp_container_1" class="jp-audio fixed-bottom" role="application" aria-label="media player">
+        <div class="jp-type-playlist">
+            <div class="jp-gui jp-interface">
+                <div class="jp-controls">
+                    <button class="jp-previous" role="button" tabindex="0">previous</button>
+                    <button class="jp-play" role="button" tabindex="0">play</button>
+                    <button class="jp-next" role="button" tabindex="0">next</button>
+                    <button class="jp-stop" role="button" tabindex="0">stop</button>
+                </div>
+                <div class="jp-progress">
+                    <div class="jp-seek-bar">
+                        <div class="jp-play-bar"></div>
+                    </div>
+                </div>
+                <div class="jp-volume-controls">
+                    <button class="jp-mute" role="button" tabindex="0">mute</button>
+                    <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                    <div class="jp-volume-bar">
+                        <div class="jp-volume-bar-value"></div>
+                    </div>
+                </div>
+                <div class="jp-time-holder">
+                    <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                    <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                </div>
+                <div class="jp-toggles">
+                    <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                    <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+                </div>
+            </div>
+            <div class="jp-playlist">
+                <ul>
+                    <li>&nbsp;</li>
+                </ul>
+            </div>
+            <div class="jp-no-solution">
+                <span>Update Required</span>
+                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--MENU-->
+
+</body>
+</html>
