@@ -1,0 +1,38 @@
+*{
+    font-family: "Times New Roman";
+}
+
+.location-header {
+    font-size: large;
+    text-align: left;
+}
+
+.carousel img {
+    width: 100%;
+    height: 500px;
+}
+
+.info1 {
+    text-align: center;
+    color: #e0a800;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.info2 {
+    text-align: -moz-center;
+    font-size: medium;
+}
+
+.info3 {
+    text-align: -moz-center;
+    font-size: medium;
+
+}
+
+.info4 {
+    text-align: -moz-center;
+    font-size:small;
+}
+
+
